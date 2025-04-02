@@ -1,4 +1,4 @@
-# Text-to-Speech Telegram Bot  
+# Telegram Bot for Text-to-Speech Conversion
 
 A Telegram bot that converts text messages into voice messages. The bot provides language selection and supports text-to-speech conversion in English, German, and Russian.  
 
@@ -14,12 +14,15 @@ A Telegram bot that converts text messages into voice messages. The bot provides
    git clone https://github.com/Helen-Mak/text-to-speech-TG-bot.git
 
 2. Install dependencies:
+   ```bash
     pip install -r requirements.txt
 
-3. Create a config.py file and add your bot token:
+3. Create a `config.py` file and add your bot token (do not commit this file):
+   ```bash
     TOKEN = "your-telegram-bot-token"
 
 4. Run the bot:
+   ```bash
     python main.py
 
 ## Usage
@@ -36,6 +39,5 @@ A Telegram bot that converts text messages into voice messages. The bot provides
 - gTTS (Google Text-to-Speech)
 - Telegram Bot API
 
-```md
-## License  
-This project is licensed under the MIT License. See the LICENSE file for details. 
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
